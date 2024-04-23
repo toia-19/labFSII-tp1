@@ -1,0 +1,55 @@
+.Navbar{
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    margin-bottom: 10px;
+    background-color: rgba(0, 238, 127, 0.733);
+}
+
+.lista{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    gap: 5rem;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #f186bc;
+}
+
+.icono{
+    width: 2rem;
+}
+
+.lista-aside{
+    list-style: circle;
+}
+
+.Aside{
+    width: 60%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(255, 206, 214);
+}
+
+.info{
+    text-align: left;
+    padding: 1rem;
+}
+
+.info p{
+    padding-top: 5px;
+}
+
+.Footer{
+    width: 100%;
+    height: 50px;
+    padding: 1rem;
+    margin-top: 10px;
+    background-color: rgba(0, 238, 127, 0.733);
+}

@@ -1,18 +1,17 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/navbar';
-import Principal from './pages/principal';
-import Aside from './components/aside';
 import Footer from './components/footer';
+
+import Home from './pages/home';
+import Form from './components/form';
 
 function App() {
   return (
     <>
       <Navbar/>
-      <div className="container">
-        <Principal/>
-        <Aside/>
-      </div>
+      <Home/>
+      <Form/>
       <Footer/>
     </>
   )

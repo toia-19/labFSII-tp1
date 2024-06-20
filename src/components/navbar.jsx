@@ -1,6 +1,9 @@
 import React from "react";
 import './components.css';
 
+import Grid from '../pages/grid';
+import Form from './form';
+
 export default function Navbar() {
   return (
     <>
@@ -11,13 +14,13 @@ export default function Navbar() {
               <img className="icono" src="src\assets\conejo-icon.png" alt="Icono conejo"/>
             </li>
             <li>
-              <a href="./principal">Vista 1</a>
+              <a href="../grid">Grid</a>
             </li>
             <li>
-              <a href="./principal">Vista 2</a>
+              <a href="./form">Formulario</a>
             </li>
             <li>
-              <a href="./principal">Vista 3</a>
+              <a href="/">Otro</a>
             </li>
             <li>
               <img className="icono" src="src\assets\conejo-icon.png" alt="Icono conejo"/>

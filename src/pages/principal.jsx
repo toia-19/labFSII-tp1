@@ -4,7 +4,7 @@ import './pages.css';
 export default function Principal() {
   return (
     <>
-    <div className="Principal">
+    <div className="principal">
       <header>
         <h1>¡Bienvenido al sitio web N°1 en animales!</h1>
         <h2>Hoy: CONEJOS.</h2>
